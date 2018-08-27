@@ -2,7 +2,7 @@
 
 import { mount } from "enzyme";
 import React from "react";
-import { Checkbox } from "@material-ui/core";
+import Checkbox from "@material-ui/core/Checkbox";
 import { GuidedExperienceNeeds } from "../../components/guided_experience_needs";
 import needsFixture from "../fixtures/needs";
 
