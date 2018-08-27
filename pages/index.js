@@ -6,7 +6,7 @@ import Bookmark from "@material-ui/icons/Bookmark";
 import SearchComponent from "../components/search";
 import { withI18next } from "../lib/withI18next";
 import Layout from "../components/layout";
-import { Grid } from "@material-ui/core";
+import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import { connect } from "react-redux";
 import { getFavouritesUrl } from "../selectors/urls";

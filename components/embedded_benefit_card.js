@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { Button, Grid } from "@material-ui/core";
+import Grid from "@material-ui/core/Grid";
+import Button from "@material-ui/core/Button";
 import classnames from "classnames";
 import { KeyboardBackspace } from "@material-ui/icons";
 import { logEvent } from "../utils/analytics";

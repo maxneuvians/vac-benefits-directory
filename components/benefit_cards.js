@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { Grid, Button } from "@material-ui/core";
+import Grid from "@material-ui/core/Grid";
+import Button from "@material-ui/core/Button";
 import ErrorOutlineIcon from "@material-ui/icons/ErrorOutline";
 import KeyboardReturnIcon from "@material-ui/icons/KeyboardReturn";
 import { KeyboardBackspace } from "@material-ui/icons";

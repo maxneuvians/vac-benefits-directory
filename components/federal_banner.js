@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { css } from "react-emotion";
 import PropTypes from "prop-types";
-import { Button } from "@material-ui/core";
+import Button from "@material-ui/core/Button";
 import LanguageButton from "./language_button";
 import FIP from "./fip";
 

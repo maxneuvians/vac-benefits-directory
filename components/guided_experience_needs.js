@@ -1,28 +1,30 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { Checkbox, FormControlLabel, Grid } from "@material-ui/core/";
+import Checkbox from "@material-ui/core/Checkbox";
+import FormControlLabel from "@material-ui/core/FormControlLabel";
+import Grid from "@material-ui/core/Grid";
 import { connect } from "react-redux";
 import { logEvent } from "../utils/analytics";
 import { css } from "react-emotion";
 
-  const root = css`
-    padding: 15px 15px 30px 15px !important;
+const root = css`
+  padding: 15px 15px 30px 15px !important;
 `;
-  const needCss = css`
-    font-size: 24px;
+const needCss = css`
+  font-size: 24px;
 `;
-  const needsList = css`
-    list-style: none;
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    max-width: 100%;
-    padding-left: 0;
-    @media (max-width: 599px) {
-      columns: 1;
-      -webkit-columns: 1;
-      -moz-columns: 1;
-    }
+const needsList = css`
+  list-style: none;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  max-width: 100%;
+  padding-left: 0;
+  @media (max-width: 599px) {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
 `;
 
 export class GuidedExperienceNeeds extends Component {
@@ -94,4 +96,7 @@ GuidedExperienceNeeds.propTypes = {
   t: PropTypes.func.isRequired
 };
 
-export default connect(mapStateToProps,mapDispatchToProps)(GuidedExperienceNeeds);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(GuidedExperienceNeeds);
