@@ -5,7 +5,7 @@ import classnames from "classnames";
 import { connect } from "react-redux";
 import NeedButton from "./need_button";
 import "babel-polyfill/dist/polyfill";
-import { Grid } from "@material-ui/core";
+import Grid from "@material-ui/core/Grid";
 
 const styles = () => ({
   title: {

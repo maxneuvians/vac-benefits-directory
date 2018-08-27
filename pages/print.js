@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { Grid } from "@material-ui/core";
+import Grid from "@material-ui/core/Grid";
 import { connect } from "react-redux";
 import { withI18next } from "../lib/withI18next";
 import Checkbox from "@material-ui/core/Checkbox";

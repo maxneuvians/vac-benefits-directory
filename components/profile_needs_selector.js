@@ -5,7 +5,9 @@ import ProfileSelector from "./profile_selector";
 import { withStyles } from "@material-ui/core/styles";
 import classnames from "classnames";
 import { connect } from "react-redux";
-import { Grid, Button, Paper } from "@material-ui/core";
+import Grid from "@material-ui/core/Grid";
+import Button from "@material-ui/core/Button";
+import Paper from "@material-ui/core/Paper";
 import CloseIcon from "@material-ui/icons/Close";
 import { css } from "react-emotion";
 

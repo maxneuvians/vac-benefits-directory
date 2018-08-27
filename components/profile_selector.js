@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import RadioSelector from "./radio_selector";
 import { connect } from "react-redux";
 import "babel-polyfill/dist/polyfill";
-import { Grid } from "@material-ui/core";
+import Grid from "@material-ui/core/Grid";
 import {
   showStatusAndVitals,
   showServiceHealthIssue,
