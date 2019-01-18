@@ -1,7 +1,7 @@
 {
   "name": "vac-poc",
   "license": "MIT",
-  "description": "Proof of concept for VAC benefits navigator",
+  "description": "Proof of concept for VAC benefits navigator CLONE",
   "engines": {
     "node": "10"
   },
